@@ -1,0 +1,1 @@
+$('.text-nav').slick();

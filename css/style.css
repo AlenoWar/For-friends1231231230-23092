@@ -165,6 +165,8 @@ hr.hr-menu {
 	background:#ffffff;
 }
 
+
+
 /*--Main content style(middle)--*/
 
 .wbg {
@@ -538,13 +540,13 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
+	color: #fff;
 }
 
 #footer_left {
 	width: 33%;
 	float: left;
-	margin: 50px 0;
-	height: 250px;
+	margin-top: 20px;
 }
 
 #footer_left li {
@@ -572,22 +574,32 @@ footer {
 	margin: 50px 0 0 30px;
 }
 
-
-
-
-
-
-
-
-
-
+.footer_h4 {
+	margin: 10px 0 30px 0;
+}
 
 #footer_right {
 	width: 33%;
 	float: right;
+	margin-top: 20px;
 }
 
 #footer_right li {
 	display: inline-block;
 	list-style-type: none;
+}
+
+#subscribe {
+	height: 50px;
+	width: 250px;
+	background: rgba(0, 0, 0, 0.1);
+	border: solid #9E97AF 0.4px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+
+
+.icons_soc {
+	display: inline-block;
+	margin-left: 10px;
 }
