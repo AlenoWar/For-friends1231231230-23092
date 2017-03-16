@@ -12,6 +12,9 @@
 	<!--Slick-->
 	<link rel="stylesheet" href="media/assets/slick/slick.css">
 	<link rel="stylesheet" href="media/assets/slick/slick-theme.css">
+	<!--REMODAL-->
+	<link rel="stylesheet" href="remodal/remodal.css">
+  <link rel="stylesheet" href="remodal/remodal-default-theme.css">
 	<!--Style CSS-->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -51,7 +54,7 @@
 						<p class="head-text">
 							This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
 						</p>
-						<a href="#" class="button"/>LEARN MORE</a>
+						<a href="#modal" class="button"/>LEARN MORE</a>
 					</div>
 
 				</article>
@@ -350,6 +353,30 @@
 			</div>
 		</div>
 	</footer>
+	<!--ВВЕДИТЕ СЮДА МОДУЛИ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+	<div class="remodal" data-remodal-id="modal">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3 class="modal_h3">Заберите книгу</h3>
+    <p class="modal_p">
+      <img src="images/box.png" alt="Обложка">
+    </p>
+    <form class="modal_form" action="#">
+      <input class="input" type="text" placeholder="Укажите свое имя" required>
+      <input class="input" type="email" placeholder="Укажите свою почту" required>
+      <input class="input input_sub" type="submit" value="Получить">
+    </form>
+  </div>
+
+
+  <!--2 примерррррррррр-->
+  <div class="remodal" data-remodal-id="modal2">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3 class="modal_h3">Политика конфиденциальности</h3>
+    <p>Политика в отношении обработки персональных данных определяет основные принципы и правила по обработке 
+    <br>
+    <button data-remodal-action="confirm" class="remodal-cancel">Понятно!</button>
+  </div>
+</div>
 
 	<!--End of the code-->
 
@@ -361,6 +388,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!--Assets script-->
 	<script src="media/assets/slick/slick.min.js"></script>
+	<!--Remodal-->
+	<script src="remodal/remodal.min.js"></script>
 	<!--Main Script-->
 	<script src="media/js/common.js"></script>
 </body>

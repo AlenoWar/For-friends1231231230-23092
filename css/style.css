@@ -604,3 +604,55 @@ footer {
 	display: inline-block;
 	margin-left: 10px;
 }
+
+
+.remodal {
+  text-align: left;
+}
+
+.modal_h3 {
+  border-bottom: 1px solid #ccc;
+  font-size: 27px;
+  padding-bottom: 10px;
+  margin: 0 0 20px;
+}
+
+.modal_p {
+  text-align: center;
+}
+
+.modal_form {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.input {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  text-indent: 20px;
+  color: #555;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.input:focus {
+  border: 1px solid #99c8d3;
+}
+
+.input_sub {
+  border: 1px solid #E4421E;
+  background: #FF4A21;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.input_sub:hover {
+  border: 1px solid #1d4965;
+  background: #245c80;
+}
